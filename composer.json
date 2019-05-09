@@ -1,0 +1,12 @@
+{
+    "name": "mg/sitemapparser",
+    "description": "Sitemap Parser",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mateusz",
+            "email": "mateusz@gate-software.pl"
+        }
+    ],
+    "require": {}
+}
