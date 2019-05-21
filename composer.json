@@ -1,12 +1,20 @@
 {
     "name": "mg/sitemapparser",
     "description": "Sitemap Parser",
-    "type": "library",
+    "type": "project",
     "authors": [
         {
             "name": "Mateusz",
             "email": "mateusz@gate-software.pl"
         }
     ],
-    "require": {}
+    "require" : {
+        "php" : ">=7.1.0",
+        "ext-SimpleXML": "*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Snowdog\\DevTest\\" : "src"
+        }
+    }
 }
